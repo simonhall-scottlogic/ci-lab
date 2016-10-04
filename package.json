@@ -5,7 +5,6 @@
   "main": "server/index.js",
   "scripts": {
     "start": "node server",
-    "test": "jasmine site/spec/*.spec.js",
     "build": "gulp build"
   },
   "author": "Scott Logic",
