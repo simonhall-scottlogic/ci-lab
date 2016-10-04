@@ -5,13 +5,14 @@
   "main": "server/index.js",
   "scripts": {
     "start": "node server",
-    "test": "jasmine site/spec/*.spec.js",
+    "test": "mocha site/spec/*.spec.js",
     "build": "gulp build"
   },
   "author": "Scott Logic",
   "license": "ISC",
   "dependencies": {
+    "chai": "^3.5.0",
     "express": "^4.14.0",
-    "jasmine": "^2.5.2"
+    "mocha": "^3.1.0"
   }
 }
