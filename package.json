@@ -11,6 +11,7 @@
   "author": "Scott Logic",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "jasmine": "^2.5.2"
   }
 }
