@@ -36,7 +36,7 @@ Model.prototype.applyClick = function(rowClicked, columnClicked) {
           this.isNoughtToPlay = !this.isNoughtToPlay;
 
           // check rows for a winner
-          for (var row = 0; row <= 1; row++) {
+          for (var row = 0; row <= 2; row++) {
             var token = this.board[row][0];
             if(token!=="empty" && token === this.board[row][1]
               && token === this.board[row][2]) {
@@ -63,7 +63,7 @@ Model.prototype.applyClick = function(rowClicked, columnClicked) {
             for (var col = 0; col <= 2; col++) {
               var token = this.board[row][col];
               if(token === "empty") {
-                isDraw = true;
+                isDraw = false;
               }
             }
           }
