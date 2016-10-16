@@ -4,5 +4,5 @@ machine:
 
 database:
   override:
-      - mysql -u ubuntu simondb < my-database-setup.sql
+      - mysql -u ubuntu circle_test < my-database-setup.sql
 
